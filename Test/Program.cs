@@ -23,10 +23,17 @@ int datebirth = currentYear - age;
 Console.WriteLine($"Hi {name},You are {age} years old.You were born in {datebirth}");
 
 
+static int factorial(int num){
+    if(num == 1){
+        return (1);
+    }else{
+        return(num* factorial(num -1));
+    }
+
+}
 
 
 
 
-
-
+factorial(4);
 
